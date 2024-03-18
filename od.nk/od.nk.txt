@@ -1,0 +1,17 @@
+a: git init
+   git status
+   git add .
+   git remote add origin https://github.com/NagyKristofckik/porbavizsga.git
+   git commit -m "1"
+   git push origin master
+b: git init
+   git remote add origin https://github.com/NagyKristofckik/porbavizsga.git
+   git pull origin master
+a: git init
+   git add .
+   git commit -m "2"
+   git push --set-upstream origin fejlesztés1
+b: git init
+   git add.
+   git commit -m "alma"
+   git push origin master
